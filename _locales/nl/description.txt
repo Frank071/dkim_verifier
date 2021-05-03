@@ -1,0 +1,9 @@
+<a href="https://nl.wikipedia.org/wiki/DomainKeys_Identified_Mail">DomainKeys Identified Mail (DKIM)</a> is een methode waarmee binnen domeinen e-mails kunnen worden ondertekend. De add-on verifieert de DKIM ondertekeningen en toont het resultaat in het e-mail venster. Op deze manier is het inzichtelijk welk domein claimt dat de mail daarvan afkomstig is. In de opties is de weergave van het resultaat in te stellen.
+
+Belangrijk om te vermelden is dat een e-mail door willekeurige domeinen kan worden ondertekend. Een geldige DKIM ondertekening is daarom geen indicatie van een betrouwbare mail. Controleer altijd wie de ondertekenaar is om de betrouwbaarheid van de mail te waarborgen.
+
+In sommige situaties kan de afwezigheid van een DKIM ondertekening helpen om valse emails te herkennen. Als bekend is dat een domein alle mail ondertekend, dan is de afwezigheid van zo'n ondertekening een sterke aanwijzing dat er iets mis is met de ontvangen mail.
+
+Om het controleren of en, zo ja, door wie een mail is ondertekend te vergemakkelijken, ondersteund de add-on het gebruik van ondertekeningsregels. Met deze regels kan worden ingesteld dat mail van bepaalde afzenders altijd ondertekend moeten zijn (ook wel SDID genoemd). Meer hierover is te vinden op https://github.com/lieser/dkim_verifier/wiki/Sign-rules.
+
+Een beschrijving van alle opties van de add-on is hier te vinden https://github.com/lieser/dkim_verifier/wiki/Options.
