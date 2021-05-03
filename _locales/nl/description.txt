@@ -1,0 +1,4 @@
+Deze add-on bevraagt een DNS Server (default Google Public DNS (8.8.8.8) of degene die in het OS is geconfigureerd) naar het TXT record dat in de DKIM header is genoemd en dat de publieke sleutel van de handtekening bevat.
+Dit gebeurt elke keer als een e-mail met een DKIM Signature header wordt bekeken.
+
+Als het gebruik van DMARC is geactiveerd, kunnen extra DNS lookups worden gedaan, ook als een niet DKIM ondertekende mail wordt bekeken.
