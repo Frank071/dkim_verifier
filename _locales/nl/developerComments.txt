@@ -1,0 +1,3 @@
+De bron voor support is https://github.com/lieser/dkim_verifier/issues of via e-mail aan lieser+dkim@posteo.net (in het Engels of Duits).
+
+Bij voorkeur worden fouten gemeld door het aanmaken van een issue op https://github.com/lieser/dkim_verifier/issues.
